@@ -1,4 +1,4 @@
-import ArrowRight from "../assets/icons/index";
+import {ArrowRight} from "../assets/icons/index";
 import BrandingImage from "../assets/images/branding-image.png";
 import ProductsDesign from "../assets/images/product-design.png";
 import WebDesign from "../assets/images/web-design.png";

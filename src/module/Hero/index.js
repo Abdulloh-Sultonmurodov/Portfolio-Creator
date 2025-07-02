@@ -1,6 +1,8 @@
-import ArrowRight from "../assets/icons";
-import Bro from "../assets/images/bro.png";
+import { ArrowRight } from "../../assets/icons";
+import { Bro } from "../../assets/images";
+import Button from "../../components/button";
 
+import "./hero.css";
 function Hero() {
   return (
     <section className="hero-section">
@@ -15,9 +17,9 @@ function Hero() {
             user-friendly interfaces for fast-growing startups.
           </p>
           <div className="hero-content-btn-wrapper">
-            <button>Book a call</button>
+            <Button title={"Book a call"} />
             <a href="#">
-              Download CV
+              <span>Download CV</span>
               <ArrowRight />
             </a>
           </div>

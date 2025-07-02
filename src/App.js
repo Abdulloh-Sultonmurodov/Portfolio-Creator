@@ -1,6 +1,4 @@
-import Header from "./module/Header";
-import Hero from "./module/Hero";
-import Trust from "./module/Trust";
+import {Header, Hero, Trust} from "./module"
 import Services from "./module/Services";
 import Projects from "./module/Projects";
 
