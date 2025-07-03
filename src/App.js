@@ -1,6 +1,12 @@
-import {Header, Hero, Trust} from "./module"
-import Services from "./module/Services";
-import Projects from "./module/Projects";
+import {
+  Header,
+  Hero,
+  Trust,
+  Services,
+  Projects,
+  Blogs,
+  ProductDesign,
+} from "./module";
 
 function App() {
   return (
@@ -10,7 +16,9 @@ function App() {
         <Hero />
         <Trust />
         <Services />
-        <Projects/>
+        <Projects />
+        <Blogs />
+        <ProductDesign />
       </main>
     </>
   );
