@@ -47,8 +47,6 @@
 }
 
 .projects-image-list {
-  width: 486px;
-  height: 468px;
   display: flex;
   gap: 24px;
 }

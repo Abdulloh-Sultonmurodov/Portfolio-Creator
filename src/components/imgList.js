@@ -1,7 +1,7 @@
 const ImageList = ({ item }) => {
   return (
-    <li className="limage">
-      <img src={item.img} alt="Projects image" width={486} height={305} />
+    <li>
+      <img src={item.img} alt="Projects image" />
       <div>
         <strong>{item.strong}</strong>
         <h3>{item.title}</h3>
